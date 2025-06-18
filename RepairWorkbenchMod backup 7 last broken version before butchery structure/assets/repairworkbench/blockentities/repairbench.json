@@ -1,0 +1,8 @@
+{
+  "code": "repairbench",
+  "class": "BlockEntityRepairBench",
+  "inventory": {
+    "toolSlot": {},
+    "nuggetSlot": {}
+  }
+}

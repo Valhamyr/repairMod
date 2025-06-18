@@ -1,0 +1,12 @@
+{
+  "modid": "repairworkbench",
+  "name": "Repair Workbench Mod",
+  "description": "Adds a repair workbench to restore tool durability using nuggets. Includes tiered versions.",
+  "authors": ["ChatGPT"],
+  "version": "1.0.0",
+  "type": "code",
+  "entry": "RepairWorkbenchMod.RepairWorkbenchMod",
+  "dependencies": {
+    "game": "1.20.0"
+  }
+}

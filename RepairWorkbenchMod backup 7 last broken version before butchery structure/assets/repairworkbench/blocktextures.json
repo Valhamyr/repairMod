@@ -1,0 +1,8 @@
+{
+  "repairbench": {
+    "top": { "base": "repairworkbench:block/repairbench_top" },
+    "side": { "base": "repairworkbench:block/repairbench_side" },
+    "bottom": { "base": "repairworkbench:block/repairbench_bottom" },
+    "bowl": { "base": "repairworkbench:block/repairbench_bowl" }
+  }
+}

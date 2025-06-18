@@ -1,0 +1,48 @@
+{
+  "code": "repairbenchdummy",
+  "variantgroups": [],
+  "variants": [
+    {
+      "code": "left"
+    },
+    {
+      "code": "right"
+    }
+  ],
+  "variantsByCode": {
+    "left": {
+      "requiresCreativeInventory": false,
+      "shape": {
+        "base": "repairworkbench:block/repairbench_left"
+      },
+      "textures": {
+        "top": {
+          "base": "game:block/woodplanks"
+        },
+        "bottom": {
+          "base": "game:block/woodplanks"
+        },
+        "side": {
+          "base": "game:block/woodplanks"
+        }
+      }
+    },
+    "right": {
+      "requiresCreativeInventory": false,
+      "shape": {
+        "base": "repairworkbench:block/repairbench_right"
+      },
+      "textures": {
+        "top": {
+          "base": "game:block/woodplanks"
+        },
+        "bottom": {
+          "base": "game:block/woodplanks"
+        },
+        "side": {
+          "base": "game:block/woodplanks"
+        }
+      }
+    }
+  }
+}

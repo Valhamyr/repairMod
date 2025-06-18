@@ -1,0 +1,23 @@
+{
+  "dialogTitle": "Repair Workbench",
+  "width": 300,
+  "height": 200,
+  "widgets": [
+    {
+      "type": "slotgrid",
+      "bounds": { "left": 30, "top": 40, "width": 32, "height": 32 },
+      "slotName": "toolSlot"
+    },
+    {
+      "type": "slotgrid",
+      "bounds": { "left": 100, "top": 40, "width": 32, "height": 32 },
+      "slotName": "nuggetSlot"
+    },
+    {
+      "type": "button",
+      "text": "Repair",
+      "bounds": { "left": 170, "top": 40, "width": 60, "height": 32 },
+      "onClick": "onRepair"
+    }
+  ]
+}

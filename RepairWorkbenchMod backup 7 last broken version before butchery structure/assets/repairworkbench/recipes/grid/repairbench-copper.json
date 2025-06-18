@@ -1,0 +1,15 @@
+{
+  "type": "grid",
+  "output": {
+    "type": "block",
+    "code": "repairworkbench:repairbench-copper"
+  },
+  "ingredients": {
+    "0": {
+      "type": "item",
+      "code": "game:stone"
+    }
+  },
+  "width": 1,
+  "height": 1
+}

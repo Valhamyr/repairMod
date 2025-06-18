@@ -1,0 +1,17 @@
+{
+  "code": "repairbench-copper",
+  "class": "Block",
+  "textures": {
+    "all": {
+      "base": "game:block/wood/planks/copper"
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      ""
+    ]
+  },
+  "shape": {
+    "base": "game:block/cube"
+  }
+}

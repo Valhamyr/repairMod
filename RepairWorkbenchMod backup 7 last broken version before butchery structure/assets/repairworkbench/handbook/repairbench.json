@@ -1,0 +1,11 @@
+{
+  "entryCode": "repairbench",
+  "entryName": "Repair Workbench",
+  "text": [
+    "The Repair Workbench allows you to restore durability to tools, weapons, and armor by placing the item in the middle, inserting matching metal nuggets in the right-side bowl, and using a hammer to hit and repair.",
+    "Each nugget restores 10% of an item's maximum durability. The item and nugget must be made of the same material (e.g., copper axe with copper nuggets).",
+    "To use: Right-click the bench with the item or nuggets to insert, empty hand to retrieve. Left-click with a hammer to repair."
+  ],
+  "extraCode": "repairbench",
+  "icon": { "item": "repairbench" }
+}

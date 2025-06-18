@@ -1,0 +1,96 @@
+{
+  "code": "repairbench",
+  "variantgroups": [
+    {
+      "code": "tier",
+      "states": [
+        "copper",
+        "iron",
+        "steel"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "code": "copper",
+      "class": "BlockRepairBench",
+      "requiresCreativeInventory": true,
+      "shape": {
+        "base": "repairworkbench:block/repairbench_copper"
+      },
+      "textures": {
+        "top": {
+          "base": "repairworkbench:block/copper_top"
+        },
+        "bottom": {
+          "base": "repairworkbench:block/copper_bottom"
+        },
+        "side": {
+          "base": "repairworkbench:block/copper_side"
+        },
+        "bowl": {
+          "base": "repairworkbench:block/copper_bowl"
+        }
+      },
+      "attributes": {
+        "handbook": {
+          "title": "Copper Repair Bench"
+        }
+      }
+    },
+    {
+      "code": "iron",
+      "class": "BlockRepairBench",
+      "requiresCreativeInventory": true,
+      "shape": {
+        "base": "repairworkbench:block/repairbench_iron"
+      },
+      "textures": {
+        "top": {
+          "base": "repairworkbench:block/iron_top"
+        },
+        "bottom": {
+          "base": "repairworkbench:block/iron_bottom"
+        },
+        "side": {
+          "base": "repairworkbench:block/iron_side"
+        },
+        "bowl": {
+          "base": "repairworkbench:block/iron_bowl"
+        }
+      },
+      "attributes": {
+        "handbook": {
+          "title": "Iron Repair Bench"
+        }
+      }
+    },
+    {
+      "code": "steel",
+      "class": "BlockRepairBench",
+      "requiresCreativeInventory": true,
+      "shape": {
+        "base": "repairworkbench:block/repairbench_steel"
+      },
+      "textures": {
+        "top": {
+          "base": "repairworkbench:block/steel_top"
+        },
+        "bottom": {
+          "base": "repairworkbench:block/steel_bottom"
+        },
+        "side": {
+          "base": "repairworkbench:block/steel_side"
+        },
+        "bowl": {
+          "base": "repairworkbench:block/steel_bowl"
+        }
+      },
+      "attributes": {
+        "handbook": {
+          "title": "Steel Repair Bench"
+        }
+      }
+    }
+  ]
+}
