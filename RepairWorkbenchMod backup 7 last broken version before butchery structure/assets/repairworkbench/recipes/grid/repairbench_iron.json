@@ -1,0 +1,17 @@
+{
+  "type": "grid",
+  "pattern": [
+    "i p i",
+    "h h h"
+  ],
+  "key": {
+    "i": { "item": "game:ingot-iron" },
+    "p": { "item": "game:plank-slab-oak" },
+    "h": { "item": "game:tool-hammer-iron" }
+  },
+  "output": {
+    "type": "block",
+    "code": "repairworkbench:repairbench-iron"
+  },
+  "enabled": true
+}

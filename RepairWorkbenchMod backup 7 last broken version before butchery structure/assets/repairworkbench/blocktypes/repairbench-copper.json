@@ -1,10 +1,11 @@
 {
   "code": "repairbench-copper",
-  "class": "Block",
+  "class": "BlockRepairBench",
   "textures": {
-    "all": {
-      "base": "game:block/wood/planks/copper"
-    }
+    "top": { "base": "repairworkbench:block/copper_top" },
+    "side": { "base": "repairworkbench:block/copper_side" },
+    "bottom": { "base": "repairworkbench:block/copper_bottom" },
+    "bowl": { "base": "repairworkbench:block/copper_bowl" }
   },
   "creativeinventory": {
     "general": [
@@ -12,6 +13,6 @@
     ]
   },
   "shape": {
-    "base": "game:block/cube"
+    "base": "repairworkbench:block/repairbench_copper"
   }
 }
