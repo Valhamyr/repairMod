@@ -1,0 +1,18 @@
+{
+  "code": "repairbench-iron",
+  "class": "BlockRepairBench",
+  "textures": {
+    "top": { "base": "repairworkbench:block/iron_top" },
+    "side": { "base": "repairworkbench:block/iron_side" },
+    "bottom": { "base": "repairworkbench:block/iron_bottom" },
+    "bowl": { "base": "repairworkbench:block/iron_bowl" }
+  },
+  "creativeinventory": {
+    "general": [
+      ""
+    ]
+  },
+  "shape": {
+    "base": "repairworkbench:block/repairbench_iron"
+  }
+}

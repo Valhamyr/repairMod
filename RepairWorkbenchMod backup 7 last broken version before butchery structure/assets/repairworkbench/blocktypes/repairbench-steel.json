@@ -1,0 +1,18 @@
+{
+  "code": "repairbench-steel",
+  "class": "BlockRepairBench",
+  "textures": {
+    "top": { "base": "repairworkbench:block/steel_top" },
+    "side": { "base": "repairworkbench:block/steel_side" },
+    "bottom": { "base": "repairworkbench:block/steel_bottom" },
+    "bowl": { "base": "repairworkbench:block/steel_bowl" }
+  },
+  "creativeinventory": {
+    "general": [
+      ""
+    ]
+  },
+  "shape": {
+    "base": "repairworkbench:block/repairbench_steel"
+  }
+}

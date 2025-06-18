@@ -10,9 +10,9 @@
   - Server log shows `GridRecipe.ResolveIngredients` null reference errors during `AssetsLoaded`.
 
 ## Tasks
-1. Reintroduce iron and steel bench variants with proper assets (textures, shapes, recipes).
-2. Implement functional `BlockRepairBench`, `BlockEntityRepairBench` and `ItemRepairHammer` to handle repairing tools using nuggets.
-3. Ensure all referenced shapes (`cube.json` etc.) and textures exist so the logs remain clean.
+1. **Done** – Reintroduced iron and steel bench variants and added corresponding assets and recipes.
+2. **Done** – Implemented basic functionality for `BlockRepairBench`, `BlockEntityRepairBench` and `ItemRepairHammer` so tools can be repaired using nuggets.
+3. **Done** – Added missing shapes and textures to silence log warnings.
 4. Review the structure of `butchering_1.9.0.zip` for working multiblock examples and replicate the approach.
 5. Add nugget count visuals in the bowl and durability feedback on the tool.
-6. Update crafting recipes and bump `modinfo.json` version once features are restored.
+6. **Done** – Bumped `modinfo.json` version after updating recipes and assets.
