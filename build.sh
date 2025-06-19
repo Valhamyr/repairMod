@@ -7,5 +7,5 @@ if [ ! -d lib ]; then
     exit 1
 fi
 
-cd 'RepairWorkbenchMod backup 7 last broken version before butchery structure'
+cd RepairWorkbenchMod
 dotnet build -c Release

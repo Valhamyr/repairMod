@@ -1,6 +1,6 @@
 # Repair Workbench Mod
 
-This repository contains a small example mod for Vintage Story. The `RepairWorkbenchMod backup 7 last broken version before butchery structure` directory holds the source code and assets. Use the provided scripts to set up a build environment.
+This repository contains a small example mod for Vintage Story. The `RepairWorkbenchMod` directory holds the source code and assets. Use the provided scripts to set up a build environment.
 
 ## Quick Start
 
@@ -15,7 +15,7 @@ This repository contains a small example mod for Vintage Story. The `RepairWorkb
 2. Build the mod:
 
 ```bash
-cd 'RepairWorkbenchMod backup 7 last broken version before butchery structure'
+cd RepairWorkbenchMod
 dotnet build -c Release
 ```
 

@@ -1,7 +1,7 @@
 # Repair Mod TODO
 
 ## Current State
-- The only code exists in `RepairWorkbenchMod backup 7 last broken version before butchery structure.zip`. Inside the archive the core classes are empty stubs:
+ - The `RepairWorkbenchMod` directory now contains the source code and assets:
   - `BlockRepairBench` derives from `Block` but has no logic.
   - `BlockEntityRepairBench` derives from `BlockEntity` but is empty.
   - `ItemRepairHammer` derives from `Item` without functionality.
