@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <AssemblyName>RepairWorkbench</AssemblyName>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/*.cs" />
+    <Reference Include="VintagestoryAPI">
+      <HintPath>../lib/VintagestoryAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="VintagestoryLib">
+      <HintPath>../lib/VintagestoryLib.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>../lib/OpenTK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
